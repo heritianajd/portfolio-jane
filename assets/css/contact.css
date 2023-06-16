@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'Poppins';
+    src:  url(../font/poopins/Poppins-Light.ttf),
+    url(../font/poopins/Poppins-ExtraLight.ttf);
+}
+
+@font-face{
+    font-family: 'Permanent Marker';
+    src: url(../font/permanent-marker/PermanentMarker-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+#contact{
+    background: #020202;
+    padding: 88px 0 132px 0;
+}
+
+.contact-container {
+    max-width: 62%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 6% 0 6%;
+    gap: 120px;
+    margin-top: 30px;
+}
+
+.contact-social h1{
+    font-family: 'Permanent Marker';
+    font-size: 36px;
+    color: #FFB800;
+    margin-bottom: 22px;
+}
+
+.contact-social p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.contact-social-media{
+    display: flex;
+    gap: 10px;
+}
+
+.contact-social-media img{
+    width: 25px;
+    height: 25px;
+}
+
+.contact-label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label-input input{
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 17px;
+}
+
+.contact-form label{
+    font-family: 'Poppins'; 
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.contact-textarea {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-textarea textarea{
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    border: none;
+    height: 104px;
+    margin-bottom: 36px;
+    padding: 15px;
+}
+
+.contact-send-message{
+    font-family: 'Poppins';
+    font-size: 14px;
+    border-radius: 10px;
+    color: #020202;
+    padding: 6px 12px;
+    background: #FFB800;
+    text-align: center;
+    float: right;
+}
+
+@media only screen and (max-width: 1920px){
+    .contact-container{
+        max-width: 64%;
+    }
+
+    .contact-social h1{
+        font-size: 42px;
+    }
+
+    .contact-social p{
+        font-size: 19px;
+    }
+
+    .contact-social-media {
+        gap: 12px;
+    }
+
+    .contact-social-media img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .contact-form label {
+        font-size: 19px;
+    }
+
+    .contact-label-input input{
+        height: 70px;
+    }
+
+    .contact-send-message{
+        font-size: 17px;
+    }
+
+    .title-line img{
+        width: 90px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .contact-container{
+        max-width: 62%;
+    }
+
+    .contact-social h1{
+        font-size: 36px;
+    }
+
+    .contact-social p{
+        font-size: 16px;
+    }
+
+    .contact-social-media {
+        gap: 10px;
+    }
+
+    .contact-social-media img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .contact-form label {
+        font-size: 16px;
+    }
+
+    .contact-label-input input{
+        height: 50px;
+    }
+
+    .contact-send-message{
+        font-size: 14px;
+    }
+
+    .title-line img{
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    #contact {
+        padding: 60px 0 100px 0;
+    }
+
+    .contact-container {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1116px){
+    .contact-social h1 {
+        font-size: 26px;
+    }
+
+    .contact-social p {
+        font-size: 11px;
+    }
+
+    .contact-social-media img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .contact-form label {
+        font-size: 12px;
+    }
+
+    .contact-send-message {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .contact-container {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .contact-container {
+        max-width: 90%;
+    }
+
+    /* .contact-social h1 {
+        font-size: 22px;
+    }
+
+    .contact-social p {
+        font-size: 9px;
+    } */
+}
+
+@media only screen and (max-width: 700px){
+    .contact-container{
+        gap: 35px;
+    }
+}
+
+@media only screen and (max-width: 577px){
+    .contact-container{
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    #contact {
+        padding: 36px 0 50px 0;
+    }
+
+    .contact-social h1 {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .contact-social p{
+        margin-bottom: 15px;
+    }
+
+    .contact-label-input input {
+        height: 35px;
+    }
+
+    .contact-textarea textarea{
+        height: 80px;
+    }
+
+    .contact-send-message {
+        font-size: 10px;
+    }
+}

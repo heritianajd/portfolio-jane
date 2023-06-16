@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'Poppins';
+    src:  url(../font/poopins/Poppins-Light.ttf),
+    url(../font/poopins/Poppins-ExtraLight.ttf);
+}
+
+@font-face{
+    font-family: 'Permanent Marker';
+    src: url(../font/permanent-marker/PermanentMarker-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+#about{
+    background-color: #252525;
+    padding: 78px 220px 98px 220px;
+    display: grid;
+    grid-template-columns: 42% 58%;
+    height: 634px;
+}
+
+.about-image .backgroud-image{
+    background: rgba(196, 196, 196, 0.25);
+    width: 330px;
+    height: 420px;
+    border-radius: 20px;
+    transform: rotate(-7.17deg);
+    position: relative;
+    top: -422px;
+}
+
+.about-image .about-img-description{
+    width: 330px;
+    height: 420px;
+}
+
+.about-title-line{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about-title-line h1{
+    font-family: 'Poppins';
+    font-size: 24px;
+}
+
+.about-title-line img{
+    width: 70px;
+    height: 3px;
+}
+
+.about-jane-doe h2{
+    font-family: 'Permanent Marker';
+    font-size: 36px;
+    color: #FFB800;
+}
+
+.about-jane-doe p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.about-skills p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-skills em{
+    font-style: normal;
+    color: #FFB800;
+    font-size: 38px;
+}
+
+.about-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 1920px){
+    #about{
+        height: 750px;
+        padding: 112px 280px 98px;
+    }
+
+    .about-title-line h1 {
+        font-size: 30px;
+    }
+
+    .about-jane-doe h2{
+        font-size: 46px;
+    }
+
+    .about-jane-doe p{
+        font-size: 22px;
+    }
+
+    .about-skills p{
+        font-size: 22px;
+    }
+
+    .about-image .about-img-description {
+        width: 410px;
+        height: 520px;
+    }
+
+    .about-image .backgroud-image{
+        width: 410px;
+        height: 520px;
+        top: -522px;
+    }
+}
+
+@media only screen and (max-width: 1621px){
+    #about {
+        height: 750px;
+        padding: 112px 240px 98px;
+    }
+
+    .about-image .about-img-description {
+        width: 380px;
+        height: 495px;
+    }
+
+    .about-image .backgroud-image {
+        width: 380px;
+        height: 495px;
+        top: -498px;
+    }
+
+    .about-title-line h1 {
+        font-size: 28px;
+    }
+
+    .about-jane-doe h2 {
+        font-size: 40px;
+    }
+
+    .about-jane-doe p {
+        font-size: 19px;
+    }
+
+    .about-skills p {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    #about{
+        height: 634px;
+        padding: 78px 220px 98px 220px;
+    }
+
+    .about-title-line h1 {
+        font-size: 24px;
+    }
+
+    .about-jane-doe h2{
+        font-size: 36px;
+    }
+
+    .about-jane-doe p{
+        font-size: 16px;
+    }
+
+    .about-skills p{
+        font-size: 16px;
+    }
+
+    .about-image .about-img-description {
+        width: 330px;
+        height: 420px;
+    }
+
+    .about-image .backgroud-image{
+        width: 330px;
+        height: 420px;
+        top: -422px;
+    }
+}
+
+@media only screen and (max-width: 1367px){
+    .about-jane-doe p {
+        font-size: 15px;
+    }
+    
+    .about-skills p {
+        font-size: 15px;
+    }
+
+    #about {
+        height: 600px;
+        padding: 78px 220px 98px 220px;
+    }
+
+    .about-image .about-img-description {
+        width: 310px;
+        height: 400px;
+    }
+
+    .about-image .backgroud-image{
+        width: 310px;
+        height: 400px;
+        top: -402px;
+    }
+
+    .work-image-add button {
+        font-size: 60px!important;
+    }
+
+    .work-image-add button {
+        font-size: 50px!important;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    #about {
+        padding: 78px 180px 98px 180px;
+    }
+}
+
+@media only screen and (max-width: 1116px){
+    #about {
+        padding: 70px 140px 98px 140px;
+        height: 510px;
+    }
+
+    .about-image .about-img-description {
+        width: 270px;
+        height: 340px;
+    }
+
+    .about-image .backgroud-image {
+        width: 270px;
+        height: 340px;
+        top: -342px;
+    }
+
+    .about-title-line h1{
+        font-size: 20px;
+    }
+
+    .about-jane-doe h2 {
+        font-size: 26px;
+    }
+
+    .about-jane-doe p {
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 16px;
+    }
+
+    .about-skills p{
+        font-size: 12px;
+    }
+
+    .about-skills em{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 993px){
+    #about{
+        height: 440px;
+    }
+
+    .about-image .about-img-description {
+        width: 220px;
+        height: 290px;
+    }
+
+    .about-image .backgroud-image{
+        width: 220px;
+        height: 290px;
+        top: -294px;
+    }
+
+    .about-title-line h1 {
+        font-size: 16px;
+    }
+
+    .about-jane-doe h2 {
+        font-size: 22px;
+    }
+
+    .about-skills em {
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 850px){
+    #about {
+        padding: 70px 40px 98px 90px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .about-image .about-img-description {
+        width: 200px;
+        height: 260px;
+    }
+
+    .about-image .backgroud-image {
+        width: 200px;
+        height: 260px;
+        top: -264px;
+    }
+
+    #about {
+        height: 400px;
+        padding: 55px 30px 98px 30px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    #about{
+        grid-template-columns: 40% 60%;
+    }
+    .about-image .about-img-description {
+        width: 168px;
+        height: 218px;
+    }    
+
+    .about-image .backgroud-image {
+        width: 168px;
+        height: 218px;
+        top: -222px;
+    }    
+}
+
+@media only screen and (max-width: 577px){
+    .about-image{
+        display: none;
+    }
+
+    #about{
+        grid-template-columns: 100%;
+    }
+
+    .about-title-line{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .about-skills{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #about{
+        height: 445px;
+        padding: 40px 20px 98px 20px;
+    }
+}
